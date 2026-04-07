@@ -11,7 +11,14 @@
     "ios": {
       "supportsTablet": true
     },
-    "android": {},
-    "web": {}
+    "android": {
+      "package": "com.sanjaykido.studenthealth"
+    },
+    "web": {},
+    "extra": {
+      "eas": {
+        "projectId": "de18ba77-bfb4-43d4-8f0c-54eda518ec65"
+      }
+    }
   }
 }

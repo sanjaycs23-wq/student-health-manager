@@ -1,8 +1,7 @@
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const DEFAULT_LOCAL_URL = 'http://10.22.22.158:5000';
-const BASE_URL = process.env.EXPO_PUBLIC_API_URL || DEFAULT_LOCAL_URL;
+const BASE_URL = "https://student-health-backend-hv3m.onrender.com";
 
 const api = axios.create({
   baseURL: BASE_URL,
